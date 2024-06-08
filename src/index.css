@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  /* TODO: import font family to make it more consistent across devices */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

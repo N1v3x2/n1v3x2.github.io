@@ -1,0 +1,17 @@
+.profile-pic {
+    width: 300px; /* Adjust the size as needed */
+    height: 300px; /* Ensure height matches width for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the element without distortion */
+   
+    /* TODO: Consider adding some transition effect here */
+}
+
+.py-10 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.bg-black {
+    background-color: #000;
+}

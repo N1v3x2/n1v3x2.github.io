@@ -1,0 +1,15 @@
+.bg-systemgray6 {
+    background-color: rgb(28, 28, 30, 0.9);
+}
+
+.font-systemgray6 a {
+    color: rgb(242, 242, 247);
+}
+
+.font-small {
+    font-size: 0.8rem !important;
+}
+
+.no-font-style * {
+    text-decoration: none !important;
+}
