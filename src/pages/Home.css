@@ -1,17 +1,22 @@
 .profile-pic {
-    width: 300px; /* Adjust the size as needed */
-    height: 300px; /* Ensure height matches width for a perfect circle */
+    width: 25%; /* Adjust the size as needed */
+    height: 25%; /* Ensure height matches width for a perfect circle */
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image covers the element without distortion */
-   
+    border: 2px solid black;
+
     /* TODO: Consider adding some transition effect here */
 }
 
-.py-10 {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .bg-black {
     background-color: #000;
+}
+
+.no-text-decor a {
+    text-decoration: none;
 }

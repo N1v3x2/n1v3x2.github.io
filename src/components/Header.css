@@ -1,6 +1,6 @@
-.bg-systemgray6 {
+/* .bg-systemgray6 {
     background-color: rgb(28, 28, 30, 0.9);
-}
+} */
 
 .font-systemgray6 a {
     color: rgb(242, 242, 247);
@@ -12,4 +12,15 @@
 
 .no-font-style * {
     text-decoration: none !important;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(29, 29, 31, 0.72);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    padding: 5px 20px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+    z-index: 1000;
 }

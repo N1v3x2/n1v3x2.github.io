@@ -1,0 +1,5 @@
+.about-pic {
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid black;
+}

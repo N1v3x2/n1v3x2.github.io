@@ -12,3 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --system-gray: #f0f0f0;
+  --macos-cyan: rgb(85, 190, 240);
+  --macos-blue: rgb(0, 122, 255);
+}
