@@ -15,7 +15,6 @@ body {
 .timeline-container {
     display: flex;
     justify-content: center;
-    max-width: 90em;
     margin: 4em auto;
     position: relative;
 }
@@ -69,12 +68,12 @@ body {
     transition: all 0.3s ease;
 }
 
-.timeline-event:hover .timeline-event-icon, 
+.timeline-event:hover .timeline-event-icon,
 .timeline-event:hover .timeline-event-thumbnail {
     background-color: var(--macos-blue);
 }
 
-.timeline-event:hover .timeline-event-copy > h3 {
+.timeline-event:hover .timeline-event-copy h3 {
     color: var(--macos-blue);
 }
 
@@ -83,6 +82,8 @@ body {
     border-radius: 8px;
     background-color: var(--system-gray);
     text-align: left;
+    position: relative;
+    margin-top: 0.5em;
 }
 
 .timeline-event-copy h3 {
@@ -104,11 +105,11 @@ body {
 
 .timeline-event-icon {
     border-radius: 50%;
-    background-color: rgb(28, 28, 30, 0.9);
+    background-color: rgb(28, 28, 30);
     outline: 10px solid white;
     display: block;
     position: absolute;
-    top: 0;
+    top: 0.5em;
     width: 1em;
     height: 1em;
 }
@@ -133,4 +134,42 @@ body {
 
 .scale:hover {
     transform: scale(1.02);
+}
+
+.caret {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 0.5em;
+    /* Align with the timeline-event-icon */
+}
+
+.left .caret {
+    right: -10px;
+    border-left: 10px solid var(--system-gray);
+}
+
+.right .caret {
+    left: -10px;
+    border-right: 10px solid var(--system-gray);
+}
+
+/* Adjust padding to accommodate caret */
+.left-column .timeline-event-content {
+    padding-right: 40px;
+}
+
+.right-column .timeline-event-content {
+    padding-left: 40px;
+}
+
+/* Ensure the content doesn't overlap with the caret */
+.left-column .timeline-event-copy {
+    padding-right: 20px;
+}
+
+.right-column .timeline-event-copy {
+    padding-left: 20px;
 }

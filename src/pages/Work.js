@@ -1,11 +1,12 @@
 import React from "react";
 import "./Work.css";
 
-const TimelineEvent = ({ event }) => (
-  <div className="timeline-event">
+const TimelineEvent = ({ event, isLeft }) => (
+  <div className={`timeline-event ${isLeft ? 'left' : 'right'}`}>
     <div className="timeline-event-content">
-      <div className="timeline-event-icon"></div>
+      <div className="timeline-event-icon scale"></div>
       <div className="timeline-event-copy scale">
+        <div className="caret"></div>
         <p className="timeline-event-thumbnail">{event.date}</p>
         <h3>{event.company}</h3>
         <h4>{event.position}</h4>
@@ -80,12 +81,12 @@ const Work = () => {
       <div className="timeline-container">
         <div className="timeline-column left-column">
           {leftEvents.map((event, index) => (
-            <TimelineEvent key={index} event={event} />
+            <TimelineEvent key={index} event={event} isLeft={true} />
           ))}
         </div>
         <div className="timeline-column right-column">
           {rightEvents.map((event, index) => (
-            <TimelineEvent key={index} event={event} />
+            <TimelineEvent key={index} event={event} isLeft={false} />
           ))}
         </div>
       </div>
