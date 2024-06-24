@@ -1,20 +1,22 @@
 import React from "react";
 import "./Work.css";
 
-const TimelineEvent = ({ event, index }) => (
-  <li className={`timeline-event ${index % 2 === 0 ? 'left' : 'right'}`}>
-    <label className="timeline-event-icon"></label>
-    <div className="timeline-event-copy scale">
-      <p className="timeline-event-thumbnail">{event.date}</p>
-      <h3>{event.company}</h3>
-      <h4>{event.position}</h4>
-      <ul>
-        {event.details.map((detail, index) => (
-          <li key={index}>{detail}</li>
-        ))}
-      </ul>
+const TimelineEvent = ({ event }) => (
+  <div className="timeline-event">
+    <div className="timeline-event-content">
+      <div className="timeline-event-icon"></div>
+      <div className="timeline-event-copy scale">
+        <p className="timeline-event-thumbnail">{event.date}</p>
+        <h3>{event.company}</h3>
+        <h4>{event.position}</h4>
+        <ul>
+          {event.details.map((detail, index) => (
+            <li key={index}>{detail}</li>
+          ))}
+        </ul>
+      </div>
     </div>
-  </li>
+  </div>
 );
 
 const Work = () => {
@@ -69,13 +71,24 @@ const Work = () => {
     },
   ];
 
+  // Split events into left and right columns
+  const leftEvents = events.filter((_, index) => index % 2 === 0);
+  const rightEvents = events.filter((_, index) => index % 2 !== 0);
+
   return (
     <div className="Work">
-      <ul className="timeline">
-        {events.map((event, index) => (
-          <TimelineEvent key={index} event={event} index={index} />
-        ))}
-      </ul>
+      <div className="timeline-container">
+        <div className="timeline-column left-column">
+          {leftEvents.map((event, index) => (
+            <TimelineEvent key={index} event={event} />
+          ))}
+        </div>
+        <div className="timeline-column right-column">
+          {rightEvents.map((event, index) => (
+            <TimelineEvent key={index} event={event} />
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
