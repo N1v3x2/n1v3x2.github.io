@@ -1,6 +1,5 @@
 .about-pic {
     width: 100%;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
-    border: 2px solid black;
-    border-radius: 8px;
 }

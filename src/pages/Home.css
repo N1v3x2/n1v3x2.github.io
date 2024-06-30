@@ -1,12 +1,32 @@
 .profile-pic {
+    
     width: 25%; /* Adjust the size as needed */
     height: 25%; /* Ensure height matches width for a perfect circle */
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image covers the element without distortion */
-    border: 2px solid black;
 
     /* TODO: Consider adding some transition effect here */
 }
+
+.home-banner {
+    background-image: url('../images/banner_pic.jpeg');
+    background-size: cover;
+    background-position: center 25%;
+    height: 700px;
+    text-align: center;
+    position: relative;
+}
+
+.home-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
 
 .py-6 {
     padding-top: 6rem;
@@ -19,4 +39,8 @@
 
 .no-text-decor a {
     text-decoration: none;
+}
+
+.border-radius-980px {
+    border-radius: 980px;
 }
