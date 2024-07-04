@@ -19,7 +19,7 @@ const TimelineEvent = ({ event }) => (
 const Work = () => {
   const events = [
     {
-      date: "MAY 2024 — PRESENT",
+      date: "May 2024 — Present",
       company: "Sandia National Laboratories",
       position: "R&D Intern",
       details: [
@@ -28,7 +28,7 @@ const Work = () => {
       ],
     },
     {
-      date: "MAR 2024 — PRESENT",
+      date: "Mar 2024 — Present",
       company: "Department of Computer Science & Engineering — Texas A&M",
       position: "Undergraduate Research Assistant",
       details: [
@@ -38,7 +38,7 @@ const Work = () => {
       ],
     },
     {
-      date: "JAN — MAY 2024",
+      date: "Jan — May 2024",
       company: "Department of Computer Science & Engineering — Texas A&M",
       position: "Undergraduate Teaching Assistant",
       details: [
@@ -47,7 +47,7 @@ const Work = () => {
       ],
     },
     {
-      date: "MAY — AUG 2023",
+      date: "May — Aug 2023",
       company: "Vertical Automation and Information Technology",
       position: "Full Stack Developer Intern",
       details: [
@@ -57,7 +57,7 @@ const Work = () => {
       ],
     },
     {
-      date: "JUN — AUG 2022",
+      date: "Jun — Aug 2022",
       company: "Vertical Automation and Information Technology",
       position: "Full Stack Developer Intern",
       details: [
@@ -71,12 +71,10 @@ const Work = () => {
   return (
     <div className="Work">
       <h1 className="display-5 my-4">Work Experience</h1>
-      <div className="d-flex justify-content-center">
-        <div className="d-flex flex-column">
-          {events.map((event, index) => (
-            <TimelineEvent key={index} event={event} isLeft={true} />
-          ))}
-        </div>
+      <div className="d-flex flex-column gap-4 mx-width-800 mx-auto">
+        {events.map((event, index) => (
+          <TimelineEvent key={index} event={event} isLeft={true} />
+        ))}
       </div>
     </div>
   );

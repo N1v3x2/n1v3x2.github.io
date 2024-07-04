@@ -51,3 +51,7 @@ code {
 .bg-system-gray {
     background: var(--system-gray);
 }
+
+.mx-width-800 {
+    max-width: 800px;
+}
