@@ -70,11 +70,13 @@ const Work = () => {
 
   return (
     <div className="Work">
-      <h1 className="display-5 my-4">Work Experience</h1>
-      <div className="d-flex flex-column gap-4 mx-width-800 mx-auto">
-        {events.map((event, index) => (
-          <TimelineEvent key={index} event={event} isLeft={true} />
-        ))}
+      <div className="container-md px-3">
+        <h1 className="display-5 mt-2 mt-md-4 mb-3">Work Experience</h1>
+        <div className="d-flex flex-column gap-4 mx-width-800 mx-auto">
+          {events.map((event, index) => (
+            <TimelineEvent key={index} event={event} isLeft={true} />
+          ))}
+        </div>
       </div>
     </div>
   );

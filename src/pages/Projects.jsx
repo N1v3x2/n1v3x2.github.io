@@ -35,8 +35,8 @@ const projects = [
 
 const MasonryPortfolio = () => {
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="display-5 mb-4">My Projects</h1>
+    <div className="container mx-auto px-3 mt-2 mt-md-4">
+      <h1 className="display-5 mb-3">My Projects</h1>
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 1100: 3 }}>
         <Masonry gutter="15px">
           {projects.map((project) => (

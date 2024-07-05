@@ -44,3 +44,21 @@
 .border-radius-980px {
     border-radius: 980px;
 }
+
+@media (max-width: 1140px) {
+    .display-max-1140px-none {
+        display: none;
+    }
+}
+
+@media (max-width: 540px) {
+    .gap-sm-3 {
+        gap: 1rem !important;
+    }
+}
+
+@media (min-width: 541px) {
+    .gap-min-md-4 {
+        gap: 1.5rem !important;
+    }
+}

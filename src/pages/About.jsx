@@ -10,9 +10,9 @@ import "./About.css";
 const About = () => (
   <section id="about">
     <div className="d-inline-flex flex-column text-start">
-      <Container className="mt-5">
-        <Row className="gap-5">
-          <Col>
+      <Container className="mt-2 mt-md-4 px-3 px-md-3">
+        <Row className="gap-3 gap-md-0">
+          <Col className="col-12 col-md-6">
             <Row>
               <Col className="px-0">
                 <img src={aboutPic} alt="About Pic" className="about-pic p-2" />
@@ -34,7 +34,7 @@ const About = () => (
               </Col>
             </Row>
           </Col>
-          <Col>
+          <Col className="col-12 col-md-6">
             <h1 className="display-5">Hey! I'm Kevin</h1>
             <p className="">
               I am an aspiring AI researcher passionate about pushing the
