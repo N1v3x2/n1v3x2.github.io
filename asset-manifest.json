@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04e130f6.css",
+    "main.js": "/static/js/main.5c8a57e8.js",
+    "static/media/banner_pic.jpeg": "/static/media/banner_pic.580aee250e75de271a01.jpeg",
+    "static/media/spot.jpeg": "/static/media/spot.08d879d559e81ee2b7d2.jpeg",
+    "static/media/about_pic2.jpeg": "/static/media/about_pic2.f0453b6b66abfda879fd.jpeg",
+    "static/media/aggies_invent.jpeg": "/static/media/aggies_invent.2383ee0b587aff9946cf.jpeg",
+    "static/media/phishalert.png": "/static/media/phishalert.9c1e4a8f6d73cafb3752.png",
+    "static/media/tamids.png": "/static/media/tamids.8e41a107baee0745e07a.png",
+    "static/media/aggietransit.png": "/static/media/aggietransit.b10f7ffead3f00268be9.png",
+    "static/media/schedumate.png": "/static/media/schedumate.7ebd926752d288adbfd4.png",
+    "static/media/climbing.jpg": "/static/media/climbing.686aaf93fda39d859ca1.jpg",
+    "static/media/skyguardian.webp": "/static/media/skyguardian.4f862034f2ce4377de0a.webp",
+    "index.html": "/index.html",
+    "main.04e130f6.css.map": "/static/css/main.04e130f6.css.map",
+    "main.5c8a57e8.js.map": "/static/js/main.5c8a57e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04e130f6.css",
+    "static/js/main.5c8a57e8.js"
+  ]
+}
