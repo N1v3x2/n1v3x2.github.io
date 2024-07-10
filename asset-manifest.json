@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/kevinkzhang.com/static/css/main.2fe2784c.css",
-    "main.js": "/kevinkzhang.com/static/js/main.3e2dce2b.js",
-    "static/media/banner_pic.jpeg": "/kevinkzhang.com/static/media/banner_pic.580aee250e75de271a01.jpeg",
-    "static/media/spot.jpeg": "/kevinkzhang.com/static/media/spot.08d879d559e81ee2b7d2.jpeg",
-    "static/media/about_pic2.jpeg": "/kevinkzhang.com/static/media/about_pic2.f0453b6b66abfda879fd.jpeg",
-    "static/media/aggies_invent.jpeg": "/kevinkzhang.com/static/media/aggies_invent.2383ee0b587aff9946cf.jpeg",
-    "static/media/phishalert.png": "/kevinkzhang.com/static/media/phishalert.9c1e4a8f6d73cafb3752.png",
-    "static/media/tamids.png": "/kevinkzhang.com/static/media/tamids.8e41a107baee0745e07a.png",
-    "static/media/aggietransit.png": "/kevinkzhang.com/static/media/aggietransit.b10f7ffead3f00268be9.png",
-    "static/media/schedumate.png": "/kevinkzhang.com/static/media/schedumate.7ebd926752d288adbfd4.png",
-    "static/media/climbing.jpg": "/kevinkzhang.com/static/media/climbing.686aaf93fda39d859ca1.jpg",
-    "static/media/skyguardian.webp": "/kevinkzhang.com/static/media/skyguardian.4f862034f2ce4377de0a.webp",
-    "index.html": "/kevinkzhang.com/index.html",
-    "main.2fe2784c.css.map": "/kevinkzhang.com/static/css/main.2fe2784c.css.map",
-    "main.3e2dce2b.js.map": "/kevinkzhang.com/static/js/main.3e2dce2b.js.map"
+    "main.css": "/n1v3x2.github.io/static/css/main.93f6b7c3.css",
+    "main.js": "/n1v3x2.github.io/static/js/main.249094f5.js",
+    "static/media/banner_pic.jpeg": "/n1v3x2.github.io/static/media/banner_pic.580aee250e75de271a01.jpeg",
+    "static/media/spot.jpeg": "/n1v3x2.github.io/static/media/spot.08d879d559e81ee2b7d2.jpeg",
+    "static/media/about_pic2.jpeg": "/n1v3x2.github.io/static/media/about_pic2.f0453b6b66abfda879fd.jpeg",
+    "static/media/aggies_invent.jpeg": "/n1v3x2.github.io/static/media/aggies_invent.2383ee0b587aff9946cf.jpeg",
+    "static/media/phishalert.png": "/n1v3x2.github.io/static/media/phishalert.9c1e4a8f6d73cafb3752.png",
+    "static/media/tamids.png": "/n1v3x2.github.io/static/media/tamids.8e41a107baee0745e07a.png",
+    "static/media/aggietransit.png": "/n1v3x2.github.io/static/media/aggietransit.b10f7ffead3f00268be9.png",
+    "static/media/schedumate.png": "/n1v3x2.github.io/static/media/schedumate.7ebd926752d288adbfd4.png",
+    "static/media/climbing.jpg": "/n1v3x2.github.io/static/media/climbing.686aaf93fda39d859ca1.jpg",
+    "static/media/skyguardian.webp": "/n1v3x2.github.io/static/media/skyguardian.4f862034f2ce4377de0a.webp",
+    "index.html": "/n1v3x2.github.io/index.html",
+    "main.93f6b7c3.css.map": "/n1v3x2.github.io/static/css/main.93f6b7c3.css.map",
+    "main.249094f5.js.map": "/n1v3x2.github.io/static/js/main.249094f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fe2784c.css",
-    "static/js/main.3e2dce2b.js"
+    "static/css/main.93f6b7c3.css",
+    "static/js/main.249094f5.js"
   ]
 }
