@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.04e130f6.css",
-    "main.js": "/static/js/main.5c8a57e8.js",
+    "main.js": "/static/js/main.59c10691.js",
     "static/media/banner_pic.jpeg": "/static/media/banner_pic.580aee250e75de271a01.jpeg",
     "static/media/spot.jpeg": "/static/media/spot.08d879d559e81ee2b7d2.jpeg",
     "static/media/about_pic2.jpeg": "/static/media/about_pic2.f0453b6b66abfda879fd.jpeg",
@@ -14,10 +14,10 @@
     "static/media/skyguardian.webp": "/static/media/skyguardian.4f862034f2ce4377de0a.webp",
     "index.html": "/index.html",
     "main.04e130f6.css.map": "/static/css/main.04e130f6.css.map",
-    "main.5c8a57e8.js.map": "/static/js/main.5c8a57e8.js.map"
+    "main.59c10691.js.map": "/static/js/main.59c10691.js.map"
   },
   "entrypoints": [
     "static/css/main.04e130f6.css",
-    "static/js/main.5c8a57e8.js"
+    "static/js/main.59c10691.js"
   ]
 }
