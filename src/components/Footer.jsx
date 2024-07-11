@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -13,30 +14,30 @@ const Footer = () => {
             <div className="border-top pt-3">
               <div className="d-flex flex-wrap justify-content-between align-items-center">
                 <div className="d-flex">
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-decoration-none text-muted me-3 mb-2"
                   >
                     <small>Home</small>
-                  </a>
-                  <a
-                    href="/about"
+                  </Link>
+                  <Link
+                    to="/about"
                     className="text-decoration-none text-muted me-3 mb-2"
                   >
                     <small>About</small>
-                  </a>
-                  <a
-                    href="/work"
+                  </Link>
+                  <Link
+                    to="/work"
                     className="text-decoration-none text-muted me-3 mb-2"
                   >
                     <small>Work</small>
-                  </a>
-                  <a
-                    href="/projects"
+                  </Link>
+                  <Link
+                    to="/projects"
                     className="text-decoration-none text-muted me-3 mb-2"
                   >
                     <small>Projects</small>
-                  </a>
+                  </Link>
                 </div>
                 <div>
                   <a
